@@ -62,4 +62,5 @@ sudo npm install -g @ionic/cli
 
 sudo npm install -g cordova
 sudo npm i -g cordova-res --unsafe-perm
+sudo npm i -g native-run
 sudo snap install android-studio --classic
