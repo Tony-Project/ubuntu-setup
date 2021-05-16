@@ -65,3 +65,27 @@ sudo npm i -g cordova-res --unsafe-perm
 sudo npm i -g native-run
 sudo snap install android-studio --classic
 sudo apt update && sudo apt install android-sdk
+sudo apt install openjdk-8-jdk openjdk-8-jre
+
+$sudo gedit $HOME/.bashrc
+
+write at end
+
+#Android Path
+export ANDROID_HOME=${HOME}/Android/Sdk
+export PATH=${PATH}:${ANDROID_HOME}/platform-tools:${ANDROID_HOME}/tools
+export PATH
+#JAVA
+export JAVA_HOME=/usr/lib/jvm/java-8-oracle/
+export JAVA_HOME
+
+$source ~/.bashrc
+
+after that open
+$sudo gedit /etc/environment
+
+and add at end
+
+JAVA_HOME="/usr/lib/jvm/java-8-oracle/"
+
+$source /etc/environment
