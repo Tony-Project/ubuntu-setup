@@ -64,3 +64,4 @@ sudo npm install -g cordova
 sudo npm i -g cordova-res --unsafe-perm
 sudo npm i -g native-run
 sudo snap install android-studio --classic
+sudo apt update && sudo apt install android-sdk
