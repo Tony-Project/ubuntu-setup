@@ -45,3 +45,18 @@ return polkit.Result.YES;
 11.	Get IP address 
  
 12.	Log out of ubuntu
+
+
+
+
+Node & Ionic Setup :
+
+sudo apt update
+sudo apt install nodejs
+nodejs -v
+sudo apt install npm
+
+sudo npm install -g @angular/cli
+sudo npm i -g @adonisjs/cli
+sudo npm install -g @ionic/cli
+
