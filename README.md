@@ -60,3 +60,4 @@ sudo npm install -g @angular/cli
 sudo npm i -g @adonisjs/cli
 sudo npm install -g @ionic/cli
 
+npm install -g ionic cordova
