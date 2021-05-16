@@ -61,4 +61,5 @@ sudo npm i -g @adonisjs/cli
 sudo npm install -g @ionic/cli
 
 sudo npm install -g cordova
+sudo npm i -g cordova-res
 sudo snap install android-studio --classic
